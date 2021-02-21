@@ -27,7 +27,12 @@ const draw = (line, linedraw) => {
   return linedraw += "*";
 }
 
-
+console.log(cadre);
+console.log(draw(line1,'*'));
+console.log(draw(line2,'*'));
+console.log(draw(line3,'*'));
+console.log(draw(line4,'*'));
+console.log(cadre);
 rl.on("line", line => {
   if (nbAllumettes <= 0 && tour === false) {
     console.log("You lost, too bad..");
